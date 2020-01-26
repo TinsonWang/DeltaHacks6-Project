@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#56fb7c">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Weight Watchers"
+                    android:textSize="50px"
+                    android:textColor="#333333">
+                </TextView>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <Button
+                android:id="@+id/calorie"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:hint="Calories"
+                android:layout_weight="1">
+            </Button>
+            <Button
+                android:id="@+id/sugar"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:hint="Sugar"
+                android:layout_weight="1">
+            </Button>
+            <Button
+                android:id="@+id/fat"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:hint="Fat"
+                android:layout_weight="1">
+            </Button>
+            <Button
+                android:id="@+id/sodium"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:hint="Sodium"
+                android:layout_weight="1">
+            </Button>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <EditText
+                android:id="@+id/value"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="Enter the value"
+                android:maxLength="12">
+            </EditText>
+        </LinearLayout>
+        <TextView
+            android:id="@+id/error"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="invisible"
+            android:text="Wrong input">
+        </TextView>
+
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
