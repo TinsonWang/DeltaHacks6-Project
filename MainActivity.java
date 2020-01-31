@@ -3,7 +3,7 @@ package com.example.deltahacks;
 import androidx.appcompat.app.AppCompatActivity;
 import java.util.Random;
 import java.util.Scanner;
-import  java.lang.Math;
+import java.lang.Math;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;

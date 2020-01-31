@@ -9,7 +9,7 @@
 // skittles: https://www.livestrong.com/article/280965-nutrition-facts-on-skittles-candy/ //
 
 
-mport java.util.Random;
+import java.util.Random;
 import java.util.Scanner;
 import  java.lang.Math;
 public class Sugar {
